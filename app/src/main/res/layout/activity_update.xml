@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="30dp">
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course name"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/udur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Duration"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+
+
+    <EditText
+        android:id="@+id/utrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Tracks"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+
+    <EditText
+        android:id="@+id/udesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course Description"
+        android:textSize="24dp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/ubutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Update course" />
+
+    <Button
+        android:id="@+id/dbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+
+</LinearLayout>
+
+
